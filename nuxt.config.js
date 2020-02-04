@@ -8,7 +8,14 @@ const routes = () => {
   return [...indicators, ...sdgs]
 }
 
+const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
+  router: {
+    base: '/2030watch/'
+  }
+} : {}
+
 module.exports = {
+  ...routerBase,
   router: {
     scrollBehavior: function (to, from, savedPosition) {
       if (to.hash) {
@@ -25,9 +32,9 @@ module.exports = {
       }
     }
   },
-  modules: [
-    ['@nuxtjs/sitemap', { path: '/sitemap.xml', generate: true, hostname: 'https://www.2030-watch.de', routes: routes }]
-  ],
+  //modules: [
+  //  ['@nuxtjs/sitemap', { path: '/sitemap.xml', generate: true, hostname: 'https://www.2030watch.de', routes: routes }]
+  //],
   // Page headers
   head: {
     htmlAttrs: {
