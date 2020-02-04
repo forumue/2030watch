@@ -1,6 +1,6 @@
 # 2030Watch
 
-[![Build Status](https://travis-ci.org/okfde/2030watch.svg?branch=master)](https://travis-ci.org/okfde/2030watch)
+[![Build Status](https://travis-ci.org/forumue/2030watch.svg?branch=master)](https://travis-ci.org/forumue/2030watch)
 
 
 ## Setup
