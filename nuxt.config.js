@@ -15,22 +15,7 @@ const routes = () => {
 }
 
 module.exports = {
-  ...routerBase
-  /*router: {
-    scrollBehavior: function (to, from, savedPosition) {
-      if (to.hash) {
-        return new Promise((resolve, reject) => {
-          setTimeout(() => {
-            resolve({ selector: to.hash })
-          }, 500)
-        })
-      }
-      if (savedPosition) {
-        return savedPosition
-      } else {
-        return {x: 0, y: 0}
-      }
-    }*/
+    ...routerBase
   },
   //modules: [
   //  ['@nuxtjs/sitemap', { path: '/sitemap.xml', generate: true, hostname: 'https://www.2030watch.de', routes: routes }]
