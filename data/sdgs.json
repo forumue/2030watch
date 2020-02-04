@@ -696,7 +696,7 @@
     "number": 4,
     "slug": "bildung",
     "color": "c31f33",
-    "labelShort": "Changengerechte und hochwertige Bildung",
+    "labelShort": "Chancengerechte und hochwertige Bildung",
     "labelLong": "Für alle Menschen inklusive, chancengerechte und hochwertige Bildung sowie Möglichkeiten zum lebenslangen Lernen sicherstellen",
     "textIntro": "Eine hochwertige Grund- und Berufsausbildung ist zentral für die Verbesserung der Lebensbedingungen des Einzelnen, der Gemeinschaften und der Gesellschaft als Ganzer.",
     "textIndicators": "SDG 4 umfasst fordert, dass alle Kinder, Jugendliche, Erwachsene und vor allem die Ärmsten und am meisten Benachteiligten Zugang zu einer hochwertigen Grund- und Berufsbildung erhalten. Ein gleichberechtigter Zugang zu Bildung und Bildungsqualität nach dem Ansatz des lebenslangen Lernens sowie Kentnisse der nachhaltigen Entwicklung sind weitere Schwerpunkte von Ziel 4. Je nachdem, welche Indikatoren zur Fortschrittsmessung herangezogen werden, wird die Zielerreichung eines nachhaltigeren Deutschlands bis 2030 unterschiedlich bewertet. Die Fortschrittsberechnung der offiziellen Deutschen Nachhaltigkeitsstrategie umfasst 4 Indikatoren und 2030Watch erweiterte Indikatorenliste umfasst auch 4 Indikatoren.",
@@ -1030,7 +1030,7 @@
           "pateMail": false,
           "indicator source": "2030Watch ",
           "data source": "FIDAR",
-          "license": "© 2018 The World Bank Group, All Rights Reserved.",
+          "license": "© FidAR",
           "sourcelink": "https://www.fidar.de/wob-indizes-und-studien/wob-index/wob-index-archiv.html"
         },
         {
@@ -1475,7 +1475,7 @@
           "pateContact": false,
           "pateMail": false,
           "indicator source": "2030Watch",
-          "data source": "World Bank",
+          "data source": "World Bank, IEA Statistics © OECD/IEA 2014 ",
           "license": "Angefragt",
           "sourcelink": "https://data.worldbank.org/indicator/EG.USE.PCAP.KG.OE?locations=DE-EU"
         },
@@ -3185,7 +3185,7 @@
     "summary2030": "2030Watch schlägt eine erweiterte Indikatorenliste vor. Die erweiterte Indikatorenliste beinhaltet die 3 offiziellen Indikatoren und 2 ergänzende Indikatoren aus dem Ocean Health Index. Aus diesem ergänzenden Indikatorenset würde sich folgender Fortschritt bei diesem Nachhaltigkeitsziel berechnen:",
     "values": {
       "dns": 31.005291005291014,
-      "okf": 38.246031746031754
+      "okf": 31.005291005291014
     },
     "ind": {
       "dns": [
@@ -3262,77 +3262,16 @@
           "sourcelink": "https://www.destatis.de/DE/Publikationen/Thematisch/UmweltoekonomischeGesamtrechnungen/Umweltindikatoren/IndikatorenPDF_5850013.pdf;jsessionid=AC2D4C6F55EFC987995F2145D3899591.InternetLive2?__blob=publicationFile"
         }
       ],
-      "okf": [
-        {
-          "id": "14_1",
-          "author": "okf",
-          "label": "Ocean Health Index: Food Provision",
-          "unit": "0-100",
-          "unitShort": "",
-          "goal": "mind. 80",
-          "sdg": 14,
-          "progress": 50,
-          "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vSoqrNXL6pdXwrqqP-dcUDIib81rFu7EZvRYhey-tSXesXONkye9dqB-SURQ77YSlWmyc9_1Bs3QoVO/pub?gid=1093265483&single=true&output=csv",
-          "slug": "okf-ocean-health-index-food-provision",
-          "target": 80,
-          "current": 43,
-          "start": 6,
-          "startYear": "2015",
-          "currentYear": "2015",
-          "reason": "SDSN",
-          "newIndicator": true,
-          "modTarget": false,
-          "pate": false,
-          "pateLogo": false,
-          "pateUrl": false,
-          "pateText": false,
-          "pateContact": false,
-          "pateMail": false,
-          "indicator source": "2030Watch/Ocean Health Index",
-          "data source": "Ocean Health Index",
-          "license": "",
-          "sourcelink": "http://data.oceanhealthindex.org/comparisons"
-        },
-        {
-          "id": "14_2",
-          "author": "okf",
-          "label": "Ocean Health Index: Clean Waters",
-          "unit": "0-100",
-          "unitShort": "",
-          "goal": "mind. 80",
-          "sdg": 14,
-          "progress": 48.214285714285715,
-          "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTdlX8Ju4hzlSQ_g-u7AatUnadfZ7Rhkg_I4mE1SDUcxZYuW4tN_5AzkKlbOOjGhlg4oB7-ajW6zGqD/pub?gid=1093265483&single=true&output=csv",
-          "slug": "okf-ocean-health-index-clean-waters",
-          "target": 80,
-          "current": 51,
-          "start": 24,
-          "startYear": "2015",
-          "currentYear": "2015",
-          "reason": "SDSN",
-          "newIndicator": true,
-          "modTarget": false,
-          "pate": false,
-          "pateLogo": false,
-          "pateUrl": false,
-          "pateText": false,
-          "pateContact": false,
-          "pateMail": false,
-          "indicator source": "2030Watch/Ocean Health Index",
-          "data source": "Ocean Health Index",
-          "license": "",
-          "sourcelink": "http://data.oceanhealthindex.org/comparisons"
-        }
-      ]
+      "okf": []
     },
     "n": {
       "moT": 0,
       "unc": 0,
-      "uokf": 2,
+      "uokf": 0,
       "udns": 3,
       "dns": 3,
-      "okf": 2,
-      "alt": 5
+      "okf": 0,
+      "alt": 3
     },
     "rating": {
       "dns": "geringe Nachhaltigkeit",
@@ -3646,7 +3585,7 @@
           "pateMail": "markus@taxjustice.net",
           "indicator source": "2030Watch/Tax Justice Network ",
           "data source": "Tax Justice Network",
-          "license": "",
+          "license": "Creative Commons Attribution 4.0 International License.",
           "sourcelink": "https://financialsecrecyindex.com/introduction/fsi-2018-results"
         },
         {
@@ -3706,7 +3645,7 @@
           "pateMail": false,
           "indicator source": "2030Watch/Access Info",
           "data source": "AccessInfo",
-          "license": "",
+          "license": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
           "sourcelink": "http://www.rti-rating.org/country-data/"
         }
       ]
