@@ -15,8 +15,7 @@ const routes = () => {
 }
 
 module.exports = {
-    ...routerBase
-  },
+    ...routerBase,
   //modules: [
   //  ['@nuxtjs/sitemap', { path: '/sitemap.xml', generate: true, hostname: 'https://www.2030watch.de', routes: routes }]
   //],
