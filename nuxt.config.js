@@ -1,3 +1,9 @@
+const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
+  router: {
+    base: '/2030watch/'
+  }
+} : {}
+
 const routes = () => {
   const indicators = Object.keys(JSON.parse(require('fs').readFileSync('data/indicators.json', 'utf8'))).map((data) => {
     return '/indicator/' + data
@@ -8,15 +14,9 @@ const routes = () => {
   return [...indicators, ...sdgs]
 }
 
-const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
-  router: {
-    base: '/2030watch/'
-  }
-} : {}
-
 module.exports = {
-  ...routerBase,
-  router: {
+  ...routerBase
+  /*router: {
     scrollBehavior: function (to, from, savedPosition) {
       if (to.hash) {
         return new Promise((resolve, reject) => {
@@ -30,7 +30,7 @@ module.exports = {
       } else {
         return {x: 0, y: 0}
       }
-    }
+    }*/
   },
   //modules: [
   //  ['@nuxtjs/sitemap', { path: '/sitemap.xml', generate: true, hostname: 'https://www.2030watch.de', routes: routes }]
