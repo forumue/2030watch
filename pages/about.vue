@@ -56,7 +56,7 @@
       <section>
         <div class="wrapper">
           <h2>Gefördert von</h2>
-          <div class="section-wrapper section-wrapper-sponsors">
+          <!-- <div class="section-wrapper section-wrapper-sponsors">
             <div class="section-img">
               <img src="../assets/img/sponsors/EG_LOGO_RGB.jpg"
                 alt="Logo von Engagement Global"
@@ -88,20 +88,20 @@
                 width="250px"
               >
             </div>
-          </div>
+          </div> -->
         </div>
       </section>
 
       <section>
         <div class="wrapper">
           <h2>Finanzberichte</h2>
-          <div class="section-wrapper section-wrapper-financial-report">
+          <!-- <div class="section-wrapper section-wrapper-financial-report">
             <div class="section-text">
               <p>
                 <a href="/document/Finanzuebersicht_2030Watch_2016-2018.pdf">Finanzübersicht</a>
               </p>
             </div>
-          </div>
+          </div> -->
         </div>
       </section>
 

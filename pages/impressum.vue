@@ -14,27 +14,27 @@
     <div class="content">
       <div class="wrapper columns columns-gutter">
         <section>
-          <h3>Vereinsadresse</h3>
+          <h3>Adresse</h3>
           <address>
-            Open Knowledge Foundation Deutschland e.V.<br/>
-            Singerstr. 109<br/>
-            10179 Berlin<br/>
+            Forum Umwelt &amp; Entwicklung<br/>
+            Marienstraße 19-20<br/>
+            10117 Berlin<br/>
             Deutschland<br/>
+            <a href="https://www.forumue.de/" target="_blank">www.forumue.de</a><br />
           </address>
         </section>
         <section>
           <h3>Vereinsregisternummer</h3>
-          <p>VR 30468 B</p>
+          <p>TODO</p>
           <h3>Umsatzsteuernummer</h3>
-          <p>DE278022128</p>
+          <p>TODO</p>
         </section>
         <section>
           <h3>E-Mail</h3>
-          <p><a href="mailto:2030-watch@okfn.de">2030-watch@okfn.de</a></p>
+          <p><a href="mailto:2030watch@forumue.de">2030watch@forumue.de</a></p>
+          <p><a href="mailto:info@forumue.de">info@forumue.de</a></p>
           <h3>Telefon</h3>
-          <p><a href="tel:+49 30 57703666 0">+49 30 57703666 0</a></p>
-          <h3>Fax</h3>
-          <p><a href="fax:+49 30 57703666 9">+49 30 57703666 9</a></p>
+          <p><a href="tel:+49 30 678 1775 920">+49 (0) 30 678 1775 920</a></p>
         </section>
       </div>
 
@@ -43,6 +43,10 @@
       </div>
 
       <div class="wrapper">
+        TODO
+      </div>
+
+      <!-- <div class="wrapper">
         <h3>Haftungsausschluss</h3>
         <p>
           Inhaltlich verantwortlich gemäß § 55 Abs. 2 RStV ist der jeweilige Autor eines Textes.
@@ -263,7 +267,7 @@
           Berlin, April 2018
         </p>
 
-      </div>
+      </div> -->
     </div>
   </div>
 </template>
