@@ -12,7 +12,6 @@
       </nav>
     </header>
     <div class="page-content">
-      <center>Das Projekt 2030Watch ist seit Januar 2018 beendet. Die Webseite wird nicht weiter geupdatet und zum 1.6.2020 abgeschaltet. Der entwickelte Code bleibt selbstverständlich verfügbar.</center>
       <nuxt/>
     </div>
     <Explainer />
