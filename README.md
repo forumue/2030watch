@@ -41,16 +41,3 @@ mv indiNav.json sdgs.json indicators.json ./data/
 # Generate the static files
 npm run generate:gh-pages
 ```
-
-
-## Manual deployment (not done anymore)
-
-### Generate the dist folder for publishing with GitHub Pages
-
-``` bash
-
-npm run generate:gh-pages
-
-```
-
-### Move and push the generated files and folders to the gh-pages branch
