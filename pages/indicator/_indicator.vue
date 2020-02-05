@@ -249,7 +249,7 @@
             ein Unterziel für sinnvoll halten. Sie legen den Zielwert fest, der bis 2030
             erreicht werden sollte. Darüber hinaus unterstützen sie das Projekt in der
             Datenbereitstellung. Bei Interesse, Datenpatin oder Datenpate zu werden, wende dich bitte an
-            <a href="mailto:2030-watch@okfn.de">2030-watch@okfn.de</a>.
+            <a href="mailto:2030watch@forumue.de">2030watch@forumue.de</a>.
           </div>
         </div>
 

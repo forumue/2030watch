@@ -25,7 +25,7 @@
           body: `
 Die offiziellen Indikatoren wurden ausschließlich von der Deutschen Nachhaltigkeitsstrategie übernommen. Die Deutsche Nachhaltigkeitsstrategie beurteilt die Veränderunge einer Indikatorentwicklung  mit Wetterzeichen: Sonne (nahezu erreicht), Wolke/Sonne (richtige Richtung), Wolke (Lücken), Donner (falsche Richtung) und zeigt so den Trend, ob sich der Indikator dem Zielwert nähert oder nicht. Wir von 2030Watch haben die Indikatoren in ein eigenes Bewertungssystem übersetzt, welches versucht, darzustellen, wie nah ein Indikator dem Ziel für das Jahr 2030 ist.
 
-Auf 2030-watch.de werden hierzu weitere Indikatoren hinzugezogen, die größtenteils aus der von der Zivilgesellschaft (NGOs) als Fortschrittsmaßstäbe von Nachhaltigkeit vorgeschlagen werden.`
+Auf 2030watch.de werden hierzu weitere Indikatoren hinzugezogen, die größtenteils aus der von der Zivilgesellschaft (NGOs) als Fortschrittsmaßstäbe von Nachhaltigkeit vorgeschlagen werden.`
         },
         {
           title: 'Wie hat 2030Watch Indikatoren ausgewählt?',
