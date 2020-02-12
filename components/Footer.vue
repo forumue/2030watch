@@ -18,13 +18,13 @@
         </li>
       </ul>
     </div>
-    <!-- <div class="tracking-info">
+    <div class="tracking-info">
       <p>2030Watch nutzt statt den üblichen externen Dienstleistern die datenschutzfreundlichere
       Technologie von <a target="_blank" href="https://matomo.org">Matomo</a>, um statistische
       Auswertungen der Seitennutzung zu erhalten. Wenn Sie dies nicht wollen, klicken Sie bitte
-      <a target="_blank" href="https://traffic.okfn.de/index.php?module=CoreAdminHome&action=optOut&language=de">hier</a>
+      <a target="_blank" href="https://matomo.gerechter-welthandel.org/index.php?module=CoreAdminHome&action=optOut&language=de&backgroundColor=&fontColor=&fontSize=&fontFamily=">hier</a>
       und entfernen Sie den Haken. Näheres in <a target="_blank" href="https://okfn.de/impressum/#datenschutzerklaerung">unserer Datenschutzerklärung</a>.</p>
-    </div> -->
+    </div>
   </footer>
 </template>
 
