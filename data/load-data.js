@@ -16,7 +16,7 @@ const {
   formatArrayToHash } = require('./utils.js')
 
 // URL
-const urlSdgs = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQhzvOoTo2_mxpq4xeQf2z8R665YPxt79-ANi8zyeQi_4AITlPVXnr7n7c1PJAI3MpHI3Skf0qjBqZj/pub?output=csv'
+const urlSdgs = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vRwMnYafOpwSf_QjxzhRh-OKgV3JC_Q3ejyY4msVpHilrEYSitZeJlZzxOicY1WNNtaFbA-9Uk8GQHZ/pub?gid=281781976&single=true&output=csv'
 
 // Headers that should be included in the final data file
 const sdgHeader = ['number', 'slug', 'color', 'labelShort', 'labelLong', 'textIntro', 'textIndicators', 'summaryDns', 'summary2030']
@@ -176,8 +176,7 @@ function processSDGs (sdgs, allIndicators) {
 }
 
 // URL to the indicator table
-// const urlIndicators = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vS7ahlC5LRwgUGaNsmxhvK4-VLo-Is7H8GjYzYHFjFCthakj6AGiKkrAVp3w5KCYG-d7aThnElewYwi/pub?output=csv'
-const urlIndicators = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vSNDFUF3uXfVPvHKTP9h_mzL-vp41CPsYBXKKZo6zM5Y1uCpth9CShHjPp4Y_LMXeHa-OyUiQLlcMGf/pub?output=csv'
+const urlIndicators = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vSlryn09IY85plg0KoHMujO7eQKJx3BK7T2vYHT25bwBjUyXnGNLTBq9zf7h90Y7dubDIvhsgVHiroS/pub?gid=227640011&single=true&output=csv'
 
 // List of keys that should be present for the dns indicators
 const indiHeadersDns = ['sdgId', 'sdgName', 'dnsId', 'slug', 'dnsName', 'ubernommen', 'nichtBerechenbar', 'dnsUnit', 'dnsUnitShort',

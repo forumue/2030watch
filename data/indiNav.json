@@ -832,6 +832,22 @@
     "color": "007dbc"
   },
   {
+    "slug": "okf-ocean-health-index-food-provision",
+    "label": "Ocean Health Index: Food Provision",
+    "id": "14_1",
+    "author": "okf",
+    "sdg": 14,
+    "color": "007dbc"
+  },
+  {
+    "slug": "okf-ocean-health-index-clean-waters",
+    "label": "Ocean Health Index: Clean Waters",
+    "id": "14_2",
+    "author": "okf",
+    "sdg": 14,
+    "color": "007dbc"
+  },
+  {
     "slug": "dns-index-artenvielfalt-landschaftsqualitaet",
     "label": "Index Artenvielfalt u. Landschaftsqualität",
     "id": "15_1",
