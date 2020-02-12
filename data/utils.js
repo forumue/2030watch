@@ -1,4 +1,4 @@
-const request = require('request')
+const superagent = require('superagent')
 const parseCSV = require('csv-parse')
 const jsonfile = require('jsonfile')
 const _ = require('lodash')
@@ -6,14 +6,16 @@ const _ = require('lodash')
 module.exports = {
   requestURL: function (url, callback) {
     // console.log('Start fetching document')
-    request(url, (err, response, body) => {
-      if (!err && response.statusCode === 200) {
-        // console.log('Document successfully fetched')
-        callback(body)
-      } else {
-        // console.log('Could not fetch document')
-      }
-    })
+
+    superagent
+      .get(url)
+      .end((err, response) => {
+        if (!err && response.statusCode === 200) {
+          callback(response.text)
+        } else {
+          // console.log('Could not fetch document')
+        }
+      })
   },
   parseCSVString: function (str, callback) {
     // console.log('Start parsing data')
@@ -128,7 +130,7 @@ module.exports = {
     let n = arr.length
     const fullIndicatorsArr = []
     _.each(arr, obj => {
-      // make async request. Check n if all request have been finished
+      // TODO make async request. Check n if all request have been finished
       obj = processIndicatorMeta(obj)
       processIndicatorDetail(obj, fullIndicator => {
         fullIndicatorsArr.push(fullIndicator)
