@@ -16,9 +16,10 @@ const routes = () => {
 
 module.exports = {
     ...routerBase,
-  //modules: [
-  //  ['@nuxtjs/sitemap', { path: '/sitemap.xml', generate: true, hostname: 'https://www.2030watch.de', routes: routes }]
-  //],
+  modules: [
+    ['nuxt-matomo', { matomoUrl: '//matomo.gerechter-welthandel.org/', siteId: 3 }]
+  // ['@nuxtjs/sitemap', { path: '/sitemap.xml', generate: true, hostname: 'https://www.2030watch.de', routes: routes }]
+  ],
   // Page headers
   head: {
     htmlAttrs: {
