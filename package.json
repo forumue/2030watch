@@ -27,7 +27,7 @@
     "nuxt-matomo": "^0.5.1",
     "superagent": "^5.2.1",
     "tinycolor2": "^1.4.1",
-    "vue-chartjs": "^3.4.0",
+    "vue-chartjs": "^3.5.0",
     "vue-markdown": "^2.2.4"
   },
   "devDependencies": {
