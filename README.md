@@ -1,7 +1,5 @@
 # 2030Watch
 
-Test page currently on: https://forumue.github.io/2030watch/
-
 [![Build Status](https://travis-ci.org/forumue/2030watch.svg?branch=master)](https://travis-ci.org/forumue/2030watch)
 
 
