@@ -1,9 +1,3 @@
-const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
-  router: {
-    base: '/2030watch/'
-  }
-} : {}
-
 const routes = () => {
   const indicators = Object.keys(JSON.parse(require('fs').readFileSync('data/indicators.json', 'utf8'))).map((data) => {
     return '/indicator/' + data
@@ -15,10 +9,25 @@ const routes = () => {
 }
 
 module.exports = {
-    ...routerBase,
+  router: {
+    scrollBehavior: function (to, from, savedPosition) {
+      if (to.hash) {
+        return new Promise((resolve, reject) => {
+          setTimeout(() => {
+            resolve({ selector: to.hash })
+          }, 500)
+        })
+      }
+      if (savedPosition) {
+        return savedPosition
+      } else {
+        return {x: 0, y: 0}
+      }
+    }
+  },
   modules: [
-    ['nuxt-matomo', { matomoUrl: '//matomo.gerechter-welthandel.org/', siteId: 3 }]
-  // ['@nuxtjs/sitemap', { path: '/sitemap.xml', generate: true, hostname: 'https://www.2030watch.de', routes: routes }]
+    ['nuxt-matomo', { matomoUrl: '//matomo.gerechter-welthandel.org/', siteId: 3 }],
+    ['@nuxtjs/sitemap', { path: '/sitemap.xml', generate: true, hostname: 'https://www.2030watch.de', routes: routes }]
   ],
   // Page headers
   head: {
