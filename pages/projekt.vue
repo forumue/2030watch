@@ -72,7 +72,7 @@ Um diese Vision zu verfolgen, zeichnet 2030Watch anhand von Indikatoren ein Bild
 Wir wollen mit 2030Watch mehrere Zielgruppen erreichen: primär zivilgesellschaftliche Organisationen wie Vereine und Bürgerinitiativen, die zu SDG-Themen arbeiten und interessierte Bürgerinnen und Bürger. Darüber hinaus hoffen wir, auch Journalist*innen und Politiker*innen sowie Nichtregierungsorganisationen zu erreichen.          `
         },
         {
-          title: 'Stellt 2030Watch die Umsetzung der 2030 Agenda in Deutschland objektiv dar?',
+          title: 'Stellt 2030Watch die Umsetzung der Agenda 2030 in Deutschland objektiv dar?',
           id: 'ziel-2030Watch-objektiv',
           body: `
 Grundsätzlich verstehen wir 2030Watch als ein politisches Projekt, das eine ambitionierte Umsetzung der Agenda 2030 fordert.
