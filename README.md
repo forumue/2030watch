@@ -1,5 +1,7 @@
 # Deprecated repository of 2030Watch
 
+The active repository is [2030-watch.de](https://github.com/forumue/2030-watch.de)
+
 # 2030Watch
 
 [![Build Status](https://travis-ci.org/forumue/2030watch.svg?branch=master)](https://travis-ci.org/forumue/2030watch)
