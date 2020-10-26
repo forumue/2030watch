@@ -1,4 +1,4 @@
-# Old repository (archived now)
+# Deprecated repository of 2030Watch
 
 # 2030Watch
 
