@@ -23,7 +23,7 @@
     "html2canvas": "^1.0.0-alpha.12",
     "jsonfile": "^4.0.0",
     "lodash": "^4.17.15",
-    "nuxt": "^1.4.5",
+    "nuxt": "^3.0.0",
     "nuxt-matomo": "^0.5.1",
     "superagent": "^5.2.1",
     "tinycolor2": "^1.4.1",
